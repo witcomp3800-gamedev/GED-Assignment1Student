@@ -95,7 +95,7 @@ int main(void)
                 ImGui::Begin("My Window",NULL,ImGuiWindowFlags_NoResize|ImGuiWindowFlags_NoCollapse);
                     ImGui::Text("The Window Text!");
                     //checkboxes, they directly modify the value (which is why we send a reference)
-                    ImGui::Checkbox("Draw Cricle",&drawCirc);
+                    ImGui::Checkbox("Draw Circle",&drawCirc);
                     ImGui::SameLine();
                     ImGui::Checkbox("Draw Text",&drawText);
 
